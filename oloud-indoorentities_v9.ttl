@@ -1,0 +1,4086 @@
+﻿@prefix : <http://lod.nik.uni-obuda.hu/data/> .
+@prefix oloud: <http://lod.nik.uni-obuda.hu/oloud-base#> .
+@prefix iloc: <http://lod.nik.uni-obuda.hu/iloc#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix part: <http://purl.org/vocab/participation/schema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix dcterm: <http://purl.org/dc/terms/> .
+@base <http://lod.nik.uni-obuda.hu/data/> .
+
+
+
+
+#################################################################
+#
+#    Individuals
+#
+#################################################################
+
+
+###  http://lod.nik.uni-obuda.hu/data/160a
+
+<http://lod.nik.uni-obuda.hu/data/160a> rdf:type iloc:Hallway ,
+                                                 owl:NamedIndividual ;
+                                        
+                                        iloc:isPartOf :First_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/160b
+
+<http://lod.nik.uni-obuda.hu/data/160b> rdf:type iloc:Hallway ,
+                                                 owl:NamedIndividual ;
+                                        
+                                        iloc:isPartOf :First_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/160c
+
+<http://lod.nik.uni-obuda.hu/data/160c> rdf:type iloc:Hallway ,
+                                                 owl:NamedIndividual ;
+                                        
+                                        iloc:isPartOf :First_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/161
+
+<http://lod.nik.uni-obuda.hu/data/161> rdf:type iloc:Hallway ,
+                                                owl:NamedIndividual ;
+                                       
+                                       iloc:isPartOf :First_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/162
+
+<http://lod.nik.uni-obuda.hu/data/162> rdf:type iloc:Hallway ,
+                                                owl:NamedIndividual ;
+                                       
+                                       iloc:isPartOf :First_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/163a
+
+<http://lod.nik.uni-obuda.hu/data/163a> rdf:type iloc:Hallway ,
+                                                 owl:NamedIndividual ;
+                                        
+                                        iloc:isPartOf :First_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/163b
+
+<http://lod.nik.uni-obuda.hu/data/163b> rdf:type iloc:Hallway ,
+                                                 owl:NamedIndividual ;
+                                        
+                                        iloc:isPartOf :First_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/1_T01
+
+<http://lod.nik.uni-obuda.hu/data/1_T01> rdf:type iloc:Toilet ,
+                                                  owl:NamedIndividual ;
+                                         
+                                         rdfs:label "First floor Women and Disabled Toilet"@en ;
+										 
+										 rdfs:label "Első emeleti női és mozgáskorlátozott mosdó"@hu ;
+                                         
+                                         iloc:isPartOf :First_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/1_T02
+
+<http://lod.nik.uni-obuda.hu/data/1_T02> rdf:type iloc:Toilet ,
+                                                  owl:NamedIndividual ;
+                                         
+                                         rdfs:label "First floor Men Toilet"@en ;
+										 
+										 rdfs:label "Első emeleti férfi mosdó"@hu ;
+                                         
+                                         iloc:isPartOf :First_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/260a
+
+<http://lod.nik.uni-obuda.hu/data/260a> rdf:type iloc:Hallway ,
+                                                 owl:NamedIndividual ;
+                                        
+                                        iloc:isPartOf :Second_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/260b1
+
+<http://lod.nik.uni-obuda.hu/data/260b1> rdf:type iloc:Hallway ,
+                                                  owl:NamedIndividual ;
+                                         
+                                         iloc:isPartOf :Second_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/260b2
+
+<http://lod.nik.uni-obuda.hu/data/260b2> rdf:type iloc:Hallway ,
+                                                  owl:NamedIndividual ;
+                                         
+                                         iloc:isPartOf :Second_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/260c
+
+<http://lod.nik.uni-obuda.hu/data/260c> rdf:type iloc:Hallway ,
+                                                 owl:NamedIndividual ;
+                                        
+                                        iloc:isPartOf :Second_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/261
+
+<http://lod.nik.uni-obuda.hu/data/261> rdf:type iloc:Hallway ,
+                                                owl:NamedIndividual ;
+                                       
+                                       iloc:isPartOf :Second_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/262
+
+<http://lod.nik.uni-obuda.hu/data/262> rdf:type iloc:Hallway ,
+                                                owl:NamedIndividual ;
+                                       
+                                       iloc:isPartOf :Second_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/263
+
+<http://lod.nik.uni-obuda.hu/data/263> rdf:type iloc:Hallway ,
+                                                owl:NamedIndividual ;
+                                       
+                                       iloc:isPartOf :Second_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/2_T01
+
+<http://lod.nik.uni-obuda.hu/data/2_T01> rdf:type iloc:Toilet ,
+                                                  owl:NamedIndividual ;
+                                         
+                                         rdfs:label "Second floor Women and Disabled Toilet"@en ;
+										 
+										 rdfs:label "Második emeleti női és mozgáskorlátozott mosdó"@hu ;
+                                         
+                                         iloc:isPartOf :Second_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/2_T02
+
+<http://lod.nik.uni-obuda.hu/data/2_T02> rdf:type iloc:Toilet ,
+                                                  owl:NamedIndividual ;
+                                         
+                                         rdfs:label "Second floor Men Toilet"@en ;
+										 
+										 rdfs:label "Második emeleti férfi mosdó"@hu ;
+                                         
+                                         iloc:isPartOf :Second_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/360a
+
+<http://lod.nik.uni-obuda.hu/data/360a> rdf:type iloc:Hallway ,
+                                                 owl:NamedIndividual ;
+                                        
+                                        iloc:isPartOf :Third_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/360b1
+
+<http://lod.nik.uni-obuda.hu/data/360b1> rdf:type iloc:Hallway ,
+                                                  owl:NamedIndividual ;
+                                         
+                                         iloc:isPartOf :Third_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/360b2
+
+<http://lod.nik.uni-obuda.hu/data/360b2> rdf:type iloc:Hallway ,
+                                                  owl:NamedIndividual ;
+                                         
+                                         iloc:isPartOf :Third_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/360c
+
+<http://lod.nik.uni-obuda.hu/data/360c> rdf:type iloc:Hallway ,
+                                                 owl:NamedIndividual ;
+                                        
+                                        iloc:isPartOf :Third_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/3_T01
+
+<http://lod.nik.uni-obuda.hu/data/3_T01> rdf:type iloc:Toilet ,
+                                                  owl:NamedIndividual ;
+                                         
+                                         rdfs:label "Third floor Women and Disabled Toilet"@en ;
+										 
+										 rdfs:label "Harmadik emeleti női és mozgáskorlátozott mosdó"@hu ;
+                                         
+                                         iloc:isPartOf :Third_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/3_T02
+
+<http://lod.nik.uni-obuda.hu/data/3_T02> rdf:type iloc:Toilet ,
+                                                  owl:NamedIndividual ;
+                                         
+                                         rdfs:label "Third floor Men Toilet"@en ;
+										 
+										 rdfs:label "Harmadik emeleti férfi mosdó"@hu ;
+                                         
+                                         iloc:isPartOf :Third_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/460a
+
+<http://lod.nik.uni-obuda.hu/data/460a> rdf:type iloc:Hallway ,
+                                                 owl:NamedIndividual ;
+                                        
+                                        iloc:isPartOf :Fourth_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/460b1
+
+<http://lod.nik.uni-obuda.hu/data/460b1> rdf:type iloc:Hallway ,
+                                                  owl:NamedIndividual ;
+                                         
+                                         iloc:isPartOf :Fourth_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/460b2
+
+<http://lod.nik.uni-obuda.hu/data/460b2> rdf:type iloc:Hallway ,
+                                                  owl:NamedIndividual ;
+                                         
+                                         iloc:isPartOf :Fourth_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/460c
+
+<http://lod.nik.uni-obuda.hu/data/460c> rdf:type iloc:Hallway ,
+                                                 owl:NamedIndividual ;
+                                        
+                                        iloc:isPartOf :Fourth_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/4_T01
+
+<http://lod.nik.uni-obuda.hu/data/4_T01> rdf:type iloc:Toilet ,
+                                                  owl:NamedIndividual ;
+                                         
+                                         rdfs:label "Fourth floor Women and Disabled Toilet"@en ;
+										 
+										 rdfs:label "Negyedik emeleti női és mozgáskorlátozott mosdó"@hu ;
+                                         
+                                         iloc:isPartOf :Fourth_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/4_T02
+
+<http://lod.nik.uni-obuda.hu/data/4_T02> rdf:type iloc:Toilet ,
+                                                  owl:NamedIndividual ;
+                                         
+                                         rdfs:label "Fourth floor Men Toilet"@en ;
+										 
+										 rdfs:label "Negyedik emeleti férfi mosdó"@hu ;
+                                         
+                                         iloc:isPartOf :Fourth_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/AddressOE
+
+:AddressOE rdf:type owl:NamedIndividual ,
+                    <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> ,
+                    vcard:Work ;
+           
+           vcard:postal-code "1034" ;
+           
+           vcard:street-address "B???csi ???t 96/B" ;
+           
+           vcard:hasLocality :Budapest ;
+           
+           vcard:hasCountryName :Hungary .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/AudMax
+
+:AudMax rdf:type iloc:LectureHall ,
+                 owl:NamedIndividual ;
+				 
+				 rdfs:label "Auditorium Maximum 1.32"@hu ;
+        
+        iloc:isPartOf :First_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/B62
+
+:B62 rdf:type owl:NamedIndividual .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Basement_oe_building
+
+:Basement_oe_building rdf:type iloc:Floor ,
+                               owl:NamedIndividual ;
+                      
+                      rdfs:label "Basement OE Building"@en ;
+                      
+                      iloc:isPartOf :OE_Main_Building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Budapest
+
+:Budapest rdf:type owl:NamedIndividual ;
+          
+          owl:sameAs <http://sws.geonames.org/2950159/> .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/C01
+
+:C01 rdf:type iloc:Cafeteria ,
+              owl:NamedIndividual ;
+     
+     rdfs:label "Ground floor Cafeteria"@en ;
+	 
+	 rdfs:label "Földszinti büfé"@hu ;
+     
+     iloc:isPartOf :Ground_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/E70
+
+:E70 rdf:type iloc:Elevator ,
+              owl:NamedIndividual ;
+     
+     iloc:isPartOf :OE_Main_Building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/E75
+
+:E75 rdf:type iloc:Elevator ,
+              owl:NamedIndividual ;
+     
+     iloc:isPartOf :OE_Main_Building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/E77
+
+:E77 rdf:type iloc:Elevator ,
+              owl:NamedIndividual ;
+     
+     iloc:isPartOf :OE_Main_Building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/F01
+
+:F01 rdf:type iloc:LectureHall ,
+              owl:NamedIndividual ;
+			  
+			  rdfs:label "F01 előadó"@hu ;
+     
+     iloc:isPartOf :Ground_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/F02
+
+:F02 rdf:type iloc:LectureHall ,
+              owl:NamedIndividual ;
+			  
+			  rdfs:label "F02 előadó"@hu ;
+     
+     iloc:isPartOf :Ground_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/F03
+
+:F03 rdf:type iloc:LectureHall ,
+              owl:NamedIndividual ;
+			  
+			  rdfs:label "F03 előadó"@hu ;
+     
+     iloc:isPartOf :Ground_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/F04
+
+:F04 rdf:type iloc:LectureHall ,
+              owl:NamedIndividual ;
+			  
+			  rdfs:label "F04 előadó"@hu ;
+     
+     iloc:isPartOf :Ground_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/F05
+
+:F05 rdf:type iloc:LectureHall ,
+              owl:NamedIndividual ;
+			  
+			  rdfs:label "F05 előadó"@hu ;
+     
+     iloc:isPartOf :Ground_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/F06
+
+:F06 rdf:type iloc:LectureHall ,
+              owl:NamedIndividual ;
+			  
+			  rdfs:label "F06 előadó"@hu ;
+     
+     iloc:isPartOf :Ground_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/F07
+
+:F07 rdf:type iloc:LectureHall ,
+              owl:NamedIndividual ;
+			  
+			  rdfs:label "F07 előadó"@hu ;
+     
+     iloc:isPartOf :Ground_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/F08
+
+:F08 rdf:type iloc:LectureHall ,
+              owl:NamedIndividual ;
+			  
+			  rdfs:label "F08 előadó"@hu ;
+     
+     iloc:isPartOf :Ground_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/F09
+
+:F09 rdf:type iloc:LectureHall ,
+              owl:NamedIndividual ;
+			  
+			  rdfs:label "F09 előadó"@hu ;
+     
+     iloc:isPartOf :Ground_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/F60a
+
+:F60a rdf:type iloc:Hallway ,
+               owl:NamedIndividual ;
+      
+      iloc:isPartOf :Ground_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/F60b
+
+:F60b rdf:type iloc:Hallway ,
+               owl:NamedIndividual ;
+      
+      iloc:isPartOf :Ground_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/F61
+
+:F61 rdf:type iloc:Hallway ,
+              owl:NamedIndividual ;
+     
+     iloc:isPartOf :Ground_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/F62a
+
+:F62a rdf:type iloc:Hallway ,
+               owl:NamedIndividual ;
+      
+      iloc:isPartOf :Ground_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/F62b
+
+:F62b rdf:type iloc:Hallway ,
+               owl:NamedIndividual ;
+      
+      iloc:isPartOf :Ground_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/F63a
+
+:F63a rdf:type iloc:Hallway ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Aula"@en ;
+      
+      iloc:isPartOf :Ground_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/F63b
+
+:F63b rdf:type iloc:Hallway ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Aula"@en ;
+      
+      iloc:isPartOf :Ground_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/F_T01
+
+:F_T01 rdf:type iloc:Toilet ,
+                owl:NamedIndividual ;
+       
+       rdfs:label "Ground floor Women Toilet"@en ;
+	   
+	   rdfs:label "Földszinti női mosdó"@hu ;
+       
+       iloc:isPartOf :Ground_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/F_T02
+
+:F_T02 rdf:type iloc:Toilet ,
+                owl:NamedIndividual ;
+       
+       rdfs:label "Ground floor Men Toilet"@en ;
+	   
+	   rdfs:label "Földszinti férfi mosdó"@hu ;
+       
+       iloc:isPartOf :Ground_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/F_T03
+
+:F_T03 rdf:type iloc:Toilet ,
+                owl:NamedIndividual ;
+       
+       rdfs:label "Ground floor Disabled Toilet"@en ;
+	   
+	   rdfs:label "Földszinti mozgáskorlátozott mosdó"@hu ;
+       
+       iloc:isPartOf :Ground_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/First_floor_oe_building
+
+:First_floor_oe_building rdf:type iloc:Floor ,
+                                  owl:NamedIndividual ;
+                         
+                         rdfs:label "First Floor OE Building "@en ;
+                         
+                         iloc:isPartOf :OE_Main_Building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Fourth_floor_oe_building
+
+:Fourth_floor_oe_building rdf:type iloc:Floor ,
+                                   owl:NamedIndividual ;
+                          
+                          rdfs:label "Forth Floor OE Building "@en ;
+                          
+                          iloc:isPartOf :OE_Main_Building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Ground_floor_oe_building
+
+:Ground_floor_oe_building rdf:type iloc:Floor ,
+                                   owl:NamedIndividual ;
+                          
+                          rdfs:label "Ground Floor OE Building"@en ;
+                          
+                          iloc:isPartOf :OE_Main_Building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Hungary
+
+:Hungary rdf:type owl:NamedIndividual .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/OE_Main_Building
+
+:OE_Main_Building rdf:type iloc:Building ,
+                           owl:NamedIndividual ;
+                  
+                  rdfs:label "OE Main Building"@en ;
+                  
+                  <http://www.w3.org/2003/01/geo/wgs84_pos#location> :AddressOE .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_117a
+
+:Office_117a rdf:type iloc:Office ,
+                      owl:NamedIndividual ;
+					  
+					  rdfs:label "Tanulmányi osztály a"@hu ;
+             
+             iloc:isPartOf :First_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_117b
+
+:Office_117b rdf:type iloc:Office ,
+                      owl:NamedIndividual ;
+					  
+					  rdfs:label "Tanulmányi osztály b"@hu ;
+             
+             iloc:isPartOf :First_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_118
+
+:Office_118 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "118 iroda"@hu ;
+            
+            iloc:isPartOf :First_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_301
+
+:Office_301 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "301 iroda"@hu ;
+            
+            iloc:isPartOf :Third_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_302
+
+:Office_302 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "302 iroda"@hu ;
+            
+            iloc:isPartOf :Third_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_303
+
+:Office_303 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "303 iroda"@hu ;
+            
+            iloc:isPartOf :Third_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_304
+
+:Office_304 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "304 iroda"@hu ;
+            
+            iloc:isPartOf :Third_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_305
+
+:Office_305 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "305 iroda"@hu ;
+            
+            iloc:isPartOf :Third_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_306
+
+:Office_306 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "306 iroda"@hu ;
+            
+            iloc:isPartOf :Third_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_307
+
+:Office_307 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "307 iroda"@hu ;
+            
+            iloc:isPartOf :Third_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_308
+
+:Office_308 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "308 iroda"@hu ;
+            
+            iloc:isPartOf :Third_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_309
+
+:Office_309 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "309 iroda"@hu ;
+            
+            iloc:isPartOf :Third_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_310
+
+:Office_310 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "310 iroda"@hu ;
+            
+            iloc:isPartOf :Third_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_311
+
+:Office_311 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "311 iroda"@hu ;
+            
+            iloc:isPartOf :Third_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_312
+
+:Office_312 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "312 iroda"@hu ;
+            
+            iloc:isPartOf :Third_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_313
+
+:Office_313 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "313 iroda"@hu ;
+            
+            iloc:isPartOf :Third_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_314
+
+:Office_314 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "314 iroda"@hu ;
+            
+            iloc:isPartOf :Third_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_315
+
+:Office_315 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "315 iroda"@hu ;
+            
+            iloc:isPartOf :Third_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_316
+
+:Office_316 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "316 iroda"@hu ;
+            
+            iloc:isPartOf :Third_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_317
+
+:Office_317 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "317 iroda"@hu ;
+            
+            iloc:isPartOf :Third_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_318
+
+:Office_318 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "318 iroda"@hu ;
+            
+            iloc:isPartOf :Third_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_319
+
+:Office_319 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "319 iroda"@hu ;
+            
+            iloc:isPartOf :Third_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_320
+
+:Office_320 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "320 iroda"@hu ;
+            
+            iloc:isPartOf :Third_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_321
+
+:Office_321 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "321 iroda"@hu ;
+            
+            iloc:isPartOf :Third_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_322
+
+:Office_322 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "322 iroda"@hu ;
+            
+            iloc:isPartOf :Third_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_323
+
+:Office_323 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "323 iroda"@hu ;
+            
+            iloc:isPartOf :Third_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_324
+
+:Office_324 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "324 iroda"@hu ;
+            
+            iloc:isPartOf :Third_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_325
+
+:Office_325 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "325 iroda"@hu ;
+            
+            iloc:isPartOf :Third_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_326
+
+:Office_326 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "326 iroda"@hu ;
+            
+            iloc:isPartOf :Third_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_327
+
+:Office_327 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "327 iroda"@hu ;
+            
+            iloc:isPartOf :Third_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_328
+
+:Office_328 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "328 iroda"@hu ;
+            
+            iloc:isPartOf :Third_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_329
+
+:Office_329 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "329 iroda"@hu ;
+            
+            iloc:isPartOf :Third_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_401
+
+:Office_401 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "401 iroda"@hu ;
+            
+            iloc:isPartOf :Fourth_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_402
+
+:Office_402 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "402 iroda"@hu ;
+            
+            iloc:isPartOf :Fourth_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_403
+
+:Office_403 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "403 iroda"@hu ;
+            
+            iloc:isPartOf :Fourth_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_404
+
+:Office_404 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "404 iroda"@hu ;
+            
+            iloc:isPartOf :Fourth_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_405
+
+:Office_405 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "405 iroda"@hu ;
+            
+            iloc:isPartOf :Fourth_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_406
+
+:Office_406 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "406 iroda"@hu ;
+            
+            iloc:isPartOf :Fourth_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_407
+
+:Office_407 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "407 iroda"@hu ;
+            
+            iloc:isPartOf :Fourth_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_408
+
+:Office_408 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "408 iroda"@hu ;
+            
+            iloc:isPartOf :Fourth_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_409
+
+:Office_409 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "409 iroda"@hu ;
+            
+            iloc:isPartOf :Fourth_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_410
+
+:Office_410 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "410 iroda"@hu ;
+            
+            iloc:isPartOf :Fourth_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_411
+
+:Office_411 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "411 iroda"@hu ;
+            
+            iloc:isPartOf :Fourth_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_412
+
+:Office_412 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "412 iroda"@hu ;
+            
+            iloc:isPartOf :Fourth_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_413
+
+:Office_413 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "413 iroda"@hu ;
+            
+            iloc:isPartOf :Fourth_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_414
+
+:Office_414 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "414 iroda"@hu ;
+            
+            iloc:isPartOf :Fourth_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_415
+
+:Office_415 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "415 iroda"@hu ;
+            
+            iloc:isPartOf :Fourth_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_416
+
+:Office_416 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "416 iroda"@hu ;
+            
+            iloc:isPartOf :Fourth_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_417
+
+:Office_417 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "417 iroda"@hu ;
+            
+            iloc:isPartOf :Fourth_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_418
+
+:Office_418 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "418 iroda"@hu ;
+            
+            iloc:isPartOf :Fourth_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_419
+
+:Office_419 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "419 iroda"@hu ;
+            
+            iloc:isPartOf :Fourth_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_420
+
+:Office_420 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "420 iroda"@hu ;
+            
+            iloc:isPartOf :Fourth_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_421
+
+:Office_421 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "421 iroda"@hu ;
+            
+            iloc:isPartOf :Fourth_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_422
+
+:Office_422 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "422 iroda"@hu ;
+            
+            iloc:isPartOf :Fourth_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_423
+
+:Office_423 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "423 iroda"@hu ;
+            
+            iloc:isPartOf :Fourth_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Office_424
+
+:Office_424 rdf:type iloc:Office ,
+                     owl:NamedIndividual ;
+					 
+					 rdfs:label "424 iroda"@hu ;
+            
+            iloc:isPartOf :Fourth_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P101
+
+:P101 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Stairway S75 Firstfloor entrance"@en ;
+	  
+	  rdfs:label "Doberdó utcai bejárathoz vezető lépcső első emeleti bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/163b> ;
+      
+      iloc:connectsPOI :P102 ,
+                      :P103 ,
+                      :PF07 ;
+      
+      iloc:belongsToRoom :S75;
+	  foaf:depiction   <http://lod.nik.uni-obuda.hu/indoor/POI/doberdo_resized.jpg> .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P102
+
+:P102 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Main building Firstfloor entrance"@en ;
+	  
+	  rdfs:label "Főépület első emeleti bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/163b> ;
+      
+      iloc:connectsPOI :P101 ,
+                      :P103 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P103
+
+:P103 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Rector's office Firstfloor entrance"@en ;
+	  
+	  rdfs:label "Rektori hivatal első emeleti bejárata"@hu ;
+      
+      rdfs:comment "Starpoint" ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/161> ,
+                        <http://lod.nik.uni-obuda.hu/data/163b> ;
+      
+      iloc:connectsPOI :P101 ,
+                      :P102 ,
+                      :P104 ,
+                      :P111 ,
+                      :P128 ;
+	  foaf:depiction   <http://lod.nik.uni-obuda.hu/indoor/POI/rektori_resized.jpg> .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P104
+
+:P104 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "AudMax Firstfloor entrance 1"@en ;
+	  
+	  rdfs:label "AudMax első emeleti, teherlift felöli bejárata"@hu ;
+      
+      rdfs:comment "Starpoint" ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/163a> ,
+                        :AudMax ;
+      
+      iloc:connectsPOI :P103 ,
+                      :P105 ,
+                      :P106 ,
+                      :P128 ,
+                      :PF34 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P105
+
+:P105 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "AudMax Firstfloor entrance 2"@en ;
+	  
+	  rdfs:label "AudMax első emeleti, titkárság felöli bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/163a> ,
+                        :AudMax ;
+      
+      iloc:connectsPOI :P104 ,
+                      :PF35 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P106
+
+:P106 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Secretariat Firstfloor entrance"@en ;
+	  
+	  rdfs:label "Titkárság első emeleti bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/162> ,
+                        <http://lod.nik.uni-obuda.hu/data/163a> ;
+      
+      iloc:connectsPOI :P104 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P111
+
+:P111 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "NIK Hallway Firstfloor entrance"@en ;
+	  
+	  rdfs:label "NIK folyosó első emeleti bejárata"@hu ;
+      
+      rdfs:comment "Starpoint" ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/160a> ,
+                        <http://lod.nik.uni-obuda.hu/data/163b> ;
+      
+      iloc:connectsPOI :P103 ,
+                      :P112 ,
+                      :P113 ,
+                      :P114 ,
+                      :P115 ,
+                      :P116 ;
+	  foaf:depiction   <http://lod.nik.uni-obuda.hu/indoor/POI/nik_folyoso_resized.jpg>.
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P112
+
+:P112 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "PC_Labor_115 entrance"@en ;
+	  
+	  rdfs:label "115 labor bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/160a> ;
+      
+      iloc:connectsPOI :P111 ,
+                      :P116 ;
+      
+      iloc:belongsToRoom :PC_Labor_115;
+	  foaf:depiction   <http://lod.nik.uni-obuda.hu/indoor/POI/115_resized.jpg> .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P113
+
+:P113 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "PC_Labor_110 entrance"@en ;
+	  
+	  rdfs:label "110 labor bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/160a> ;
+      
+      iloc:connectsPOI :P111 ,
+                      :P116 ;
+      
+      iloc:belongsToRoom :PC_Labor_110 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P114
+
+:P114 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "PC_Labor_116 entrance"@en ;
+	  
+	  rdfs:label "116 labor bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/160a> ;
+      
+      iloc:connectsPOI :P111 ,
+                      :P116 ;
+      
+      iloc:belongsToRoom :PC_Labor_116 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P115
+
+:P115 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "PC_Labor_111 entrance"@en ;
+	  
+	  rdfs:label "111 labor bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/160a> ;
+      
+      iloc:connectsPOI :P111 ,
+                      :P116 ;
+      
+      iloc:belongsToRoom :PC_Labor_111 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P116
+
+:P116 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "PC_Labor_112 entrance"@en ;
+	  
+	  rdfs:label "112 labor bejárata"@hu ;
+      
+      rdfs:comment "Starpoint" ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/160a> ;
+      
+      iloc:connectsPOI :P111 ,
+                      :P112 ,
+                      :P113 ,
+                      :P114 ,
+                      :P115 ,
+                      :P117 ,
+                      :P118 ,
+                      :P119 ;
+      
+      iloc:belongsToRoom :PC_Labor_112 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P117
+
+:P117 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Firstfloor Men Toilet entrance"@en ;
+	  
+	  rdfs:label "Első emeleti férfi mosdó bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/160a> ,
+                        <http://lod.nik.uni-obuda.hu/data/1_T02> ;
+      
+      iloc:connectsPOI :P116 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P118
+
+:P118 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Firstfloor Women and Disabled Toilet entrance"@en ;
+	  
+	  rdfs:label "Első emeleti női és mozgáskorlátozott mosdó bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/160a> ,
+                        <http://lod.nik.uni-obuda.hu/data/1_T01> ;
+      
+      iloc:connectsPOI :P116 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P119
+
+:P119 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Elevator E70 Firstfloor entrance"@en ;
+	  
+	  rdfs:label "Személylift első emeleti bejárata"@hu ;
+      
+      rdfs:comment "Starpoint" ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/160c> ,
+                        :E70 ;
+      
+      iloc:connectsPOI :P116 ,
+                      :P120 ,
+                      :P126 ,
+                      :P208 ,
+                      :P301 ,
+                      :P401 ,
+                      :PF25 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P120
+
+:P120 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Registry Office A entrance"@en ;
+	  
+	  rdfs:label "Tanulmányi osztály A bejárata"@hu ;
+      
+      rdfs:comment "Starpoint" ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/160b> ,
+                        <http://lod.nik.uni-obuda.hu/data/160c> ,
+                        :Office_117a ;
+      
+      iloc:connectsPOI :P119 ,
+                      :P121 ,
+                      :P122 ,
+                      :P123 ,
+                      :P124 ,
+                      :P125 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P121
+
+:P121 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Registry Office B entrance"@en ;
+	  
+	  rdfs:label "Tanulmányi osztály B bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/160b> ,
+                        :Office_117b ;
+      
+      iloc:connectsPOI :P120 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P122
+
+:P122 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_118 entrance"@en ;
+	  
+	  rdfs:label "118 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/160b> ,
+                        :Office_118 ;
+      
+      iloc:connectsPOI :P120 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P123
+
+:P123 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "PC_Labor_119 entrance"@en ;
+	  
+	  rdfs:label "119 labor bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/160b> ;
+      
+      iloc:connectsPOI :P120 ;
+      
+      iloc:belongsToRoom :PC_Labor_119 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P124
+
+:P124 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "PC_Labor_114 entrance"@en ;
+	  
+	  rdfs:label "114 labor bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/160b> ;
+      
+      iloc:connectsPOI :P120 ;
+      
+      iloc:belongsToRoom :PC_Labor_114 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P125
+
+:P125 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "PC_Labor_113 entrance"@en ;
+	  
+	  rdfs:label "113 labor bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/160b> ;
+      
+      iloc:connectsPOI :P120 ;
+      
+      iloc:belongsToRoom :PC_Labor_113 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P126
+
+:P126 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Stairway S70 Firstfloor entrance"@en ;
+	  
+	  rdfs:label "Lépcsőház első emeleti bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/160c> ;
+      
+      iloc:connectsPOI :P119 ,
+                      :PF33 ;
+      
+      iloc:belongsToRoom :S70 .
+
+
+###  http://lod.nik.uni-obuda.hu/data/P128
+
+:P128 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Elevator E75 Firstfloor entrance"@en ;
+	  
+	  rdfs:label "Teherlift első emeleti bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/163b> ,
+                        :E75 ;
+      
+      iloc:connectsPOI :P103 ,
+                      :P104 ,
+                      :P219 ,
+                      :PF31 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P201
+
+:P201 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Rector's office Secondfloor entrance"@en ;
+	  
+	  rdfs:label "Rektori hivatal második emeleti bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/261> ,
+                        <http://lod.nik.uni-obuda.hu/data/263> ;
+      
+      iloc:connectsPOI :P202 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P202
+
+:P202 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "NIK Hallway Secondfloor entrance"@en ;
+	  
+	  rdfs:label "NIK folyosó második emeleti bejárata"@hu ;
+      
+      rdfs:comment "Starpoint" ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/260a> ,
+                        <http://lod.nik.uni-obuda.hu/data/263> ;
+      
+      iloc:connectsPOI :P201 ,
+                      :P203 ,
+                      :P204 ,
+                      :P205 ,
+                      :P206 ,
+                      :P207 ,
+                      :P219 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P203
+
+:P203 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "PC_Labor_215 entrance"@en ;
+	  
+	  rdfs:label "215 labor bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/260a> ;
+      
+      iloc:connectsPOI :P202 ,
+                      :P207 ;
+      
+      iloc:belongsToRoom :PC_Labor_215 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P204
+
+:P204 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "PC_Labor_210 entrance"@en ;
+	  
+	  rdfs:label "210 labor bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/260a> ;
+      
+      iloc:connectsPOI :P202 ,
+                      :P207 ;
+      
+      iloc:belongsToRoom :PC_Labor_210 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P205
+
+:P205 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "PC_Labor_216 entrance"@en ;
+	  
+	  rdfs:label "216 labor bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/260a> ;
+      
+      iloc:connectsPOI :P202 ,
+                      :P207 ;
+      
+      iloc:belongsToRoom :PC_Labor_216 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P206
+
+:P206 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "PC_Labor_211 entrance"@en ;
+	  
+	  rdfs:label "211 labor bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/260a> ;
+      
+      iloc:connectsPOI :P202 ,
+                      :P207 ;
+      
+      iloc:belongsToRoom :PC_Labor_211 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P207
+
+:P207 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "PC_Labor_212 entrance"@en ;
+	  
+	  rdfs:label "212 labor bejárata"@hu ;
+      
+      rdfs:comment "Starpoint" ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/260a> ;
+      
+      iloc:connectsPOI :P202 ,
+                      :P203 ,
+                      :P204 ,
+                      :P205 ,
+                      :P206 ,
+                      :P208 ,
+                      :P209 ,
+                      :P210 ;
+      
+      iloc:belongsToRoom :PC_Labor_212 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P208
+
+:P208 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Elevator E70 Secondfloor entrance"@en ;
+	  
+	  rdfs:label "Személylift második emeleti bejárata"@hu ;
+      
+      rdfs:comment "Starpoint" ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/260c> ,
+                        :E70 ;
+      
+      iloc:connectsPOI :P119 ,
+                      :P207 ,
+                      :P211 ,
+                      :P215 ,
+                      :P217 ,
+                      :P301 ,
+                      :P401 ,
+                      :PF25 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P209
+
+:P209 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Secondfloor Men Toilet entrance"@en ;
+	  
+	  rdfs:label "Második emeleti férfi mosdó bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/260a> ,
+                        <http://lod.nik.uni-obuda.hu/data/2_T02> ;
+      
+      iloc:connectsPOI :P207 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P210
+
+:P210 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Secondfloor Women and Disabled Toilet entrance"@en ;
+	  
+	  rdfs:label "Második emeleti női és mozgáskorlátozott mosdó bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/260a> ,
+                        <http://lod.nik.uni-obuda.hu/data/2_T01> ;
+      
+      iloc:connectsPOI :P207 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P211
+
+:P211 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "PC_Labor_217 entrance"@en ;
+	  
+	  rdfs:label "217 labor bejárata"@hu ;
+      
+      rdfs:comment "Starpoint" ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/260b2> ,
+                        <http://lod.nik.uni-obuda.hu/data/260c> ;
+      
+      iloc:connectsPOI :P208 ,
+                      :P212 ,
+                      :P213 ,
+                      :P214 ;
+      
+      iloc:belongsToRoom :PC_Labor_217 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P212
+
+:P212 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "PC_Labor_218 entrance"@en ;
+	  
+	  rdfs:label "218 labor bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/260b2> ;
+      
+      iloc:connectsPOI :P211 ;
+      
+      iloc:belongsToRoom :PC_Labor_218 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P213
+
+:P213 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "PC_Labor_219 entrance"@en ;
+	  
+	  rdfs:label "219 labor bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/260b2> ;
+      
+      iloc:connectsPOI :P211 ;
+      
+      iloc:belongsToRoom :PC_Labor_219 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P214
+
+:P214 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "PC_Labor_220 entrance"@en ;
+	  
+	  rdfs:label "220 labor bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/260b2> ;
+      
+      iloc:connectsPOI :P211 ;
+      
+      iloc:belongsToRoom :PC_Labor_220 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P215
+
+:P215 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "PC_Labor_213 entrance"@en ;
+	  
+	   rdfs:label "213 labor bejárata"@hu ;
+      
+      rdfs:comment "Starpoint" ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/260b1> ;
+      
+      iloc:connectsPOI :P208 ,
+                      :P216 ;
+      
+      iloc:belongsToRoom :PC_Labor_213 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P216
+
+:P216 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "PC_Labor_214 entrance"@en ;
+	  
+	   rdfs:label "214 labor bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/260b1> ;
+      
+      iloc:connectsPOI :P215 ;
+      
+      iloc:belongsToRoom :PC_Labor_214 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P217
+
+:P217 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Stairway S70 Secondfloor entrance"@en ;
+	  
+	   rdfs:label "Lépcsőház második emeleti bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/260c> ;
+      
+      iloc:connectsPOI :P126 ,
+                      :P208 ,
+                      :PF33 ;
+      
+      iloc:belongsToRoom :S70 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P219
+
+:P219 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Elevator E75 Secondfloor entrance"@en ;
+	  
+	  rdfs:label "Teherlift második emeleti bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/263> ,
+                        :E75 ;
+      
+      iloc:connectsPOI :PF31 ,
+					  :P128 ,
+                      :P202 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P301
+
+:P301 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Elevator E70 Thirdfloor entrance"@en ;
+	  
+	  rdfs:label "Személylift harmadik emeleti bejárata"@hu ;
+      
+      rdfs:comment "Starpoint" ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/360c> ,
+                        :E70 ;
+      
+      iloc:connectsPOI :P119 ,
+                      :P208 ,
+                      :P302 ,
+                      :P317 ,
+                      :P325 ,
+                      :P332 ,
+                      :P401 ,
+                      :PF25 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P302
+
+:P302 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_307 entrance"@en ;
+	  
+	  rdfs:label "307 iroda bejárata"@hu ;
+      
+      rdfs:comment "Starpoint" ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/360a> ,
+                        :Office_307 ;
+      
+      iloc:connectsPOI :P301 ,
+                      :P303 ,
+                      :P304 ,
+                      :P305 ,
+                      :P306 ,
+                      :P307 ,
+                      :P308 ,
+                      :P309 ,
+                      :P310 ,
+                      :P311 ,
+                      :P312 ,
+                      :P313 ,
+                      :P314 ,
+                      :P315 ,
+                      :P316 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P303
+
+:P303 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_306 entrance"@en ;
+	  
+	  rdfs:label "306 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/360a> ,
+                        :Office_306 ;
+      
+      iloc:connectsPOI :P302 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P304
+
+:P304 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_305 entrance"@en ;
+	  
+	  rdfs:label "305 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/360a> ,
+                        :Office_305 ;
+      
+      iloc:connectsPOI :P302 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P305
+
+:P305 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_304 entrance"@en ;
+	  
+	  rdfs:label "304 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/360a> ,
+                        :Office_304 ;
+      
+      iloc:connectsPOI :P302 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P306
+
+:P306 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_303 entrance"@en ;
+	  
+	  rdfs:label "303 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/360a> ,
+                        :Office_303 ;
+      
+      iloc:connectsPOI :P302 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P307
+
+:P307 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_302 entrance"@en ;
+	  
+	  rdfs:label "302 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/360a> ,
+                        :Office_302 ;
+      
+      iloc:connectsPOI :P302 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P308
+
+:P308 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_301 entrance"@en ;
+	  
+	  rdfs:label "301 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/360a> ,
+                        :Office_301 ;
+      
+      iloc:connectsPOI :P302 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P309
+
+:P309 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_315 entrance"@en ;
+	  
+	  rdfs:label "315 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/360a> ,
+                        :Office_315 ;
+      
+      iloc:connectsPOI :P302 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P310
+
+:P310 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_316 entrance"@en ;
+	  
+	  rdfs:label "316 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/360a> ,
+                        :Office_316 ;
+      
+      iloc:connectsPOI :P302 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P311
+
+:P311 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_317 entrance"@en ;
+	  
+	  rdfs:label "317 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/360a> ,
+                        :Office_317 ;
+      
+      iloc:connectsPOI :P302 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P312
+
+:P312 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_318 entrance"@en ;
+	  
+	  rdfs:label "318 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/360a> ,
+                        :Office_318 ;
+      
+      iloc:connectsPOI :P302 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P313
+
+:P313 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_319 entrance"@en ;
+	  
+	  rdfs:label "319 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/360a> ,
+                        :Office_319 ;
+      
+      iloc:connectsPOI :P302 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P314
+
+:P314 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_320 entrance"@en ;
+	  
+	  rdfs:label "320 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/360a> ,
+                        :Office_320 ;
+      
+      iloc:connectsPOI :P302 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P315
+
+:P315 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Thirdfloor Men toilet entrance"@en ;
+	  
+	  rdfs:label "Harmadik emeleti férfi mosdó bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/360a> ,
+                        <http://lod.nik.uni-obuda.hu/data/3_T02> ;
+      
+      iloc:connectsPOI :P302 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P316
+
+:P316 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Thirdfloor Women and Disabled toilet entrance"@en ;
+	  
+	  rdfs:label "Harmadik emeleti női és mozgáskorlátozott mosdó bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/360a> ,
+                        <http://lod.nik.uni-obuda.hu/data/3_T01> ;
+      
+      iloc:connectsPOI :P302 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P317
+
+:P317 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_308 entrance"@en ;
+	  
+	  rdfs:label "308 iroda bejárata"@hu ;
+      
+      rdfs:comment "Starpoint" ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/360b1> ,
+                        :Office_308 ;
+      
+      iloc:connectsPOI :P301 ,
+                      :P318 ,
+                      :P319 ,
+                      :P320 ,
+                      :P321 ,
+                      :P322 ,
+                      :P323 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P318
+
+:P318 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_309 entrance"@en ;
+	  
+	  rdfs:label "309 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/360b1> ,
+                        :Office_309 ;
+      
+      iloc:connectsPOI :P317 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P319
+
+:P319 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_310 entrance"@en ;
+	  
+	  rdfs:label "310 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/360b1> ,
+                        :Office_310 ;
+      
+      iloc:connectsPOI :P317 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P320
+
+:P320 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_311 entrance"@en ;
+	  
+	  rdfs:label "311 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/360b1> ,
+                        :Office_311 ;
+      
+      iloc:connectsPOI :P317 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P321
+
+:P321 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_312 entrance"@en ;
+	  
+	  rdfs:label "312 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/360b1> ,
+                        :Office_312 ;
+      
+      iloc:connectsPOI :P317 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P322
+
+:P322 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_313 entrance"@en ;
+	  
+	  rdfs:label "313 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/360b1> ,
+                        :Office_313 ;
+      
+      iloc:connectsPOI :P317 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P323
+
+:P323 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_314 entrance"@en ;
+	  
+	  rdfs:label "314 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/360b1> ,
+                        :Office_314 ;
+      
+      iloc:connectsPOI :P317 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P325
+
+:P325 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_322 entrance"@en ;
+	  
+	  rdfs:label "322 iroda bejárata"@hu ;
+      
+      rdfs:comment "Starpoint" ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/360b2> ,
+                        <http://lod.nik.uni-obuda.hu/data/360c> ,
+                        :Office_322 ;
+      
+      iloc:connectsPOI :P301 ,
+                      :P326 ,
+                      :P327 ,
+                      :P328 ,
+                      :P329 ,
+                      :P330 ,
+                      :P331 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P326
+
+:P326 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_323 entrance"@en ;
+	  
+	  rdfs:label "323 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/360b2> ,
+                        :Office_323 ;
+      
+      iloc:connectsPOI :P325 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P327
+
+:P327 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_324 entrance"@en ;
+	  
+	  rdfs:label "324 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/360b2> ,
+                        :Office_324 ;
+      
+      iloc:connectsPOI :P325 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P328
+
+:P328 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_325 entrance"@en ;
+	  
+	  rdfs:label "325 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/360b2> ,
+                        :Office_325 ;
+      
+      iloc:connectsPOI :P325 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P329
+
+:P329 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_326 entrance"@en ;
+	  
+	  rdfs:label "326 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/360b2> ,
+                        :Office_326 ;
+      
+      iloc:connectsPOI :P325 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P330
+
+:P330 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_327 entrance"@en ;
+	  
+	  rdfs:label "327 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/360b2> ,
+                        :Office_327 ;
+      
+      iloc:connectsPOI :P325 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P331
+
+:P331 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_328 entrance"@en ;
+	  
+	  rdfs:label "328 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/360b2> ,
+                        :Office_328 ;
+      
+      iloc:connectsPOI :P325 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P332
+
+:P332 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Stairway S70 Thirdfloor entrance"@en ;
+	  
+	  rdfs:label "Lépcsőház harmadik emeleti bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/360c> ;
+      
+      iloc:connectsPOI :P126 ,
+                      :P217 ,
+                      :P301 ,
+                      :PF33 ;
+      
+      iloc:belongsToRoom :S70 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P401
+
+:P401 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Elevator E70 Fourthfloor entrance"@en ;
+	  
+	  rdfs:label "Személylift negyedik emeleti bejárata"@hu ;
+      
+      rdfs:comment "Starpoint" ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/460c> ,
+                        :E70 ;
+      
+      iloc:connectsPOI :P119 ,
+                      :P208 ,
+                      :P301 ,
+                      :P402 ,
+                      :P415 ,
+                      :P422 ,
+                      :P427 ,
+                      :PF25 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P402
+
+:P402 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_404 entrance"@en ;
+	  
+	  rdfs:label "404 iroda bejárata"@hu ;
+      
+      rdfs:comment "Starpoint" ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/460a> ,
+                        :Office_404 ;
+      
+      iloc:connectsPOI :P401 ,
+                      :P403 ,
+                      :P404 ,
+                      :P405 ,
+                      :P406 ,
+                      :P407 ,
+                      :P408 ,
+                      :P409 ,
+                      :P410 ,
+                      :P411 ,
+                      :P412 ,
+                      :P413 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P403
+
+:P403 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_403 entrance"@en ;
+	  
+	  rdfs:label "403 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/460a> ,
+                        :Office_403 ;
+      
+      iloc:connectsPOI :P402 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P404
+
+:P404 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_402 entrance"@en ;
+	  
+	  rdfs:label "402 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/460a> ,
+                        :Office_402 ;
+      
+      iloc:connectsPOI :P402 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P405
+
+:P405 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_401 entrance"@en ;
+	  
+	  rdfs:label "401 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/460a> ,
+                        :Office_401 ;
+      
+      iloc:connectsPOI :P402 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P406
+
+:P406 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_410 entrance"@en ;
+	  
+	  rdfs:label "410 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/460a> ,
+                        :Office_410 ;
+      
+      iloc:connectsPOI :P402 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P407
+
+:P407 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_411 entrance"@en ;
+	  
+	  rdfs:label "411 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/460a> ,
+                        :Office_411 ;
+      
+      iloc:connectsPOI :P402 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P408
+
+:P408 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_412 entrance"@en ;
+	  
+	  rdfs:label "412 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/460a> ,
+                        :Office_412 ;
+      
+      iloc:connectsPOI :P402 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P409
+
+:P409 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_413 entrance"@en ;
+	  
+	  rdfs:label "413 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/460a> ,
+                        :Office_413 ;
+      
+      iloc:connectsPOI :P402 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P410
+
+:P410 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_414 entrance"@en ;
+	  
+	  rdfs:label "414 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/460a> ,
+                        :Office_414 ;
+      
+      iloc:connectsPOI :P402 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P411
+
+:P411 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_415 entrance"@en ;
+	  
+	  rdfs:label "415 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/460a> ,
+                        :Office_415 ;
+      
+      iloc:connectsPOI :P402 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P412
+
+:P412 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Fourthfloor Men toilet entrance"@en ;
+	  
+	  rdfs:label "Negyedik emeleti férfi mosdó bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/460a> ,
+                        <http://lod.nik.uni-obuda.hu/data/4_T02> ;
+      
+      iloc:connectsPOI :P402 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P413
+
+:P413 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Fourthfloor Women and Disabled toilet entrance"@en ;
+	  
+	  rdfs:label "Negyedik emeleti női és mozgáskorlátozott mosdó bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/460a> ,
+                        <http://lod.nik.uni-obuda.hu/data/4_T01> ;
+      
+      iloc:connectsPOI :P402 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P414
+
+:P414 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_416 entrance"@en ;
+	  
+	  rdfs:label "416 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/460b2> ,
+                        <http://lod.nik.uni-obuda.hu/data/460c> ,
+                        :Office_416 ;
+      
+      iloc:connectsPOI :P415 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P415
+
+:P415 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_417 entrance"@en ;
+	  
+	  rdfs:label "417 iroda bejárata"@hu ;
+      
+      rdfs:comment "Starpoint" ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/460b2> ,
+                        <http://lod.nik.uni-obuda.hu/data/460c> ,
+                        :Office_417 ;
+      
+      iloc:connectsPOI :P401 ,
+                      :P414 ,
+                      :P416 ,
+                      :P417 ,
+                      :P418 ,
+                      :P419 ,
+                      :P420 ,
+                      :P421 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P416
+
+:P416 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_418 entrance"@en ;
+	  
+	  rdfs:label "418 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/460b2> ,
+                        :Office_418 ;
+      
+      iloc:connectsPOI :P415 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P417
+
+:P417 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_419 entrance"@en ;
+	  
+	  rdfs:label "419 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/460b2> ,
+                        :Office_419 ;
+      
+      iloc:connectsPOI :P415 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P418
+
+:P418 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_420 entrance"@en ;
+	  
+	  rdfs:label "420 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/460b2> ,
+                        :Office_420 ;
+      
+      iloc:connectsPOI :P415 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P419
+
+:P419 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_421 entrance"@en ;
+	  
+	  rdfs:label "421 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/460b2> ,
+                        :Office_421 ;
+      
+      iloc:connectsPOI :P415 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P420
+
+:P420 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_422 entrance"@en ;
+	  
+	  rdfs:label "422 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/460b2> ,
+                        :Office_422 ;
+      
+      iloc:connectsPOI :P415 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P421
+
+:P421 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_423 entrance"@en ;
+	  
+	  rdfs:label "423 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/460b2> ,
+                        :Office_423 ;
+      
+      iloc:connectsPOI :P415 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P422
+
+:P422 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_405 entrance"@en ;
+	  
+	  rdfs:label "405 iroda bejárata"@hu ;
+      
+      rdfs:comment "Starpoint" ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/460b1> ,
+                        :Office_405 ;
+      
+      iloc:connectsPOI :P401 ,
+                      :P423 ,
+                      :P424 ,
+                      :P425 ,
+                      :P426 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P423
+
+:P423 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_406 entrance"@en ;
+	  
+	  rdfs:label "406 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/460b1> ,
+                        :Office_406 ;
+      
+      iloc:connectsPOI :P422 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P424
+
+:P424 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_407 entrance"@en ;
+	  
+	  rdfs:label "407 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/460b1> ,
+                        :Office_407 ;
+      
+      iloc:connectsPOI :P422 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P425
+
+:P425 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_408 entrance"@en ;
+	  
+	  rdfs:label "408 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/460b1> ,
+                        :Office_408 ;
+      
+      iloc:connectsPOI :P422 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P426
+
+:P426 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Office_409 entrance"@en ;
+	  
+	  rdfs:label "409 iroda bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/460b1> ,
+                        :Office_409 ;
+      
+      iloc:connectsPOI :P422 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/P427
+
+:P427 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Stairway S70 Fourthfloor entrance"@en ;
+	  
+	  rdfs:label "Lépcsőház negyedik emeleti bejárata"@hu ;
+      
+      iloc:belongsToRoom <http://lod.nik.uni-obuda.hu/data/460c> ;
+      
+      iloc:connectsPOI :P126 ,
+                      :P217 ,
+                      :P332 ,
+                      :P401 ,
+                      :PF33 ;
+      
+      iloc:belongsToRoom :S70 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PB01
+
+:PB01 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Main building entrance"@en ;
+	  
+	  rdfs:label "Főbejárat"@hu ;
+      
+      rdfs:comment "Starpoint" ;
+      
+      iloc:belongsToRoom :B62 ;
+      
+      iloc:connectsPOI :PB03 ,
+                      :PB04 ,
+                      :PB05 ,
+                      :PF01 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PB03
+
+:PB03 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Reception entrance"@en ;
+	  
+	  rdfs:label "Recepció bejárata"@hu ;
+      
+      iloc:belongsToRoom :B62 ;
+      
+      iloc:connectsPOI :PB01 ;
+      
+      iloc:belongsToRoom :R01 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PB04
+
+:PB04 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Stairway S77 Basement entrance"@en ;
+	  
+	  rdfs:label "Főbejárati lépcsőház alagsori bejárata"@hu ;
+      
+      iloc:belongsToRoom :B62 ;
+      
+      iloc:connectsPOI :PB01 ,
+                      :PF05 ;
+      
+      iloc:belongsToRoom :S77 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PB05
+
+:PB05 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Elevator E77 Basement entrance. "@en ;
+	  
+	  rdfs:label "Főbejárati lift alagsori bejárata"@hu ;
+      
+      iloc:belongsToRoom :B62 ;
+      
+      iloc:connectsPOI :PB01 ,
+                      :PF30 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PC_Labor_110
+
+:PC_Labor_110 rdf:type iloc:Lab ,
+                       owl:NamedIndividual ;
+					   
+					   rdfs:label "110 labor"@hu ;
+              
+              iloc:isPartOf :First_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PC_Labor_111
+
+:PC_Labor_111 rdf:type iloc:Lab ,
+                       owl:NamedIndividual ;
+					   
+					   rdfs:label "111 labor"@hu ;
+              
+              iloc:isPartOf :First_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PC_Labor_112
+
+:PC_Labor_112 rdf:type iloc:Lab ,
+                       owl:NamedIndividual ;
+					   
+					   rdfs:label "112 labor"@hu ;
+              
+              iloc:isPartOf :First_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PC_Labor_113
+
+:PC_Labor_113 rdf:type iloc:Lab ,
+                       owl:NamedIndividual ;
+					   
+					   rdfs:label "113 labor"@hu ;
+              
+              iloc:isPartOf :First_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PC_Labor_114
+
+:PC_Labor_114 rdf:type iloc:Lab ,
+                       owl:NamedIndividual ;
+					   
+					   rdfs:label "114 labor"@hu ;
+              
+              iloc:isPartOf :First_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PC_Labor_115
+
+:PC_Labor_115 rdf:type iloc:Lab ,
+                       owl:NamedIndividual ;
+					   
+					   rdfs:label "115 labor"@hu ;
+              
+              iloc:isPartOf :First_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PC_Labor_116
+
+:PC_Labor_116 rdf:type iloc:Lab ,
+                       owl:NamedIndividual ;
+					   
+					   rdfs:label "116 labor"@hu ;
+              
+              iloc:isPartOf :First_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PC_Labor_119
+
+:PC_Labor_119 rdf:type iloc:Lab ,
+                       owl:NamedIndividual ;
+					   
+					   rdfs:label "119 labor"@hu ;
+              
+              iloc:isPartOf :First_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PC_Labor_133
+
+:PC_Labor_133 rdf:type iloc:Lab ,
+                       owl:NamedIndividual ;
+					   
+					   rdfs:label "133 labor"@hu ;
+              
+              iloc:isPartOf :First_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PC_Labor_210
+
+:PC_Labor_210 rdf:type iloc:Lab ,
+                       owl:NamedIndividual ;
+					   
+					   rdfs:label "210 labor"@hu ;
+              
+              iloc:isPartOf :Second_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PC_Labor_211
+
+:PC_Labor_211 rdf:type iloc:Lab ,
+                       owl:NamedIndividual ;
+					   
+					   rdfs:label "211 labor"@hu ;
+              
+              iloc:isPartOf :Second_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PC_Labor_212
+
+:PC_Labor_212 rdf:type iloc:Lab ,
+                       owl:NamedIndividual ;
+					   
+					   rdfs:label "212 labor"@hu ;
+              
+              iloc:isPartOf :Second_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PC_Labor_213
+
+:PC_Labor_213 rdf:type iloc:Lab ,
+                       owl:NamedIndividual ;
+					   
+					   rdfs:label "213 labor"@hu ;
+              
+              iloc:isPartOf :Second_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PC_Labor_214
+
+:PC_Labor_214 rdf:type iloc:Lab ,
+                       owl:NamedIndividual ;
+					   
+					   rdfs:label "214 labor"@hu ;
+              
+              iloc:isPartOf :Second_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PC_Labor_215
+
+:PC_Labor_215 rdf:type iloc:Lab ,
+                       owl:NamedIndividual ;
+					   
+					   rdfs:label "215 labor"@hu ;
+              
+              iloc:isPartOf :Second_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PC_Labor_216
+
+:PC_Labor_216 rdf:type iloc:Lab ,
+                       owl:NamedIndividual ;
+					   
+					   rdfs:label "216 labor"@hu ;
+              
+              iloc:isPartOf :Second_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PC_Labor_217
+
+:PC_Labor_217 rdf:type iloc:Lab ,
+                       owl:NamedIndividual ;
+					   
+					   rdfs:label "217 labor"@hu ;
+              
+              iloc:isPartOf :Second_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PC_Labor_218
+
+:PC_Labor_218 rdf:type iloc:Lab ,
+                       owl:NamedIndividual ;
+					   
+					   rdfs:label "218 labor"@hu ;
+              
+              iloc:isPartOf :Second_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PC_Labor_219
+
+:PC_Labor_219 rdf:type iloc:Lab ,
+                       owl:NamedIndividual ;
+					   
+					   rdfs:label "219 labor"@hu ;
+              
+              iloc:isPartOf :Second_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PC_Labor_220
+
+:PC_Labor_220 rdf:type iloc:Lab ,
+                       owl:NamedIndividual ;
+					   
+					   rdfs:label "220 labor"@hu ;
+              
+              iloc:isPartOf :Second_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PF01
+
+:PF01 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Stairway S76 Groundfloor entrance"@en ;
+	  
+	  rdfs:label "Főbejárati nagylépcső földszinti bejárata"@hu ;
+      
+      rdfs:comment "Starpoint" ;
+      
+      iloc:belongsToRoom :F62a ,
+                        :F62b ;
+      
+      iloc:connectsPOI :PB01 ,
+                      :PF02 ,
+                      :PF03 ,
+                      :PF04 ,
+                      :PF05 ,
+                      :PF06 ,
+                      :PF07 ,
+                      :PF08 ,
+                      :PF09 ,
+                      :PF30 ;
+      
+      iloc:belongsToRoom :S76 ;
+	  foaf:depiction   <http://lod.nik.uni-obuda.hu/indoor/POI/aula_lepcso_resized.jpg>.
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PF02
+
+:PF02 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "F07 door"@en ;
+	  
+	  rdfs:label "F07 előadó bejárata"@hu ;
+      
+      iloc:belongsToRoom :F07 ,
+                        :F62b ;
+      
+      iloc:connectsPOI :PF01 ;
+	  foaf:depiction   <http://lod.nik.uni-obuda.hu/indoor/POI/f07_resized.jpg> .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PF03
+
+:PF03 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "F08 door"@en ;
+	  
+	  rdfs:label "F08 előadó bejárata"@hu ;
+      
+      iloc:belongsToRoom :F08 ,
+                        :F62b ;
+      
+      iloc:connectsPOI :PF01 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PF04
+
+:PF04 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "F09 door"@en ;
+	  
+	  rdfs:label "F09 előadó bejárata"@hu ;
+      
+      iloc:belongsToRoom :F09 ,
+                        :F62a ;
+      
+      iloc:connectsPOI :PF01 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PF05
+
+:PF05 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Stairway S77 Groundfloor entrance"@en ;
+	  
+	  rdfs:label "Főbejárati lépcsőház földszinti bejárata"@hu ;
+      
+      iloc:belongsToRoom :F62a ;
+      
+      iloc:connectsPOI :PB04 ,
+                      :PF01 ;
+      
+      iloc:belongsToRoom :S77 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PF06
+
+:PF06 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Stairway S74 Groundfloor entrance"@en ;
+	  
+	  rdfs:label "Női mosdó felöli AudMax lépcső bejárata"@hu ;
+      
+      rdfs:comment "Starpoint" ;
+      
+      iloc:belongsToRoom :F63a ;
+      
+      iloc:connectsPOI :PF01 ,
+                      :PF08 ,
+                      :PF10 ,
+                      :PF11 ,
+                      :PF29 ,
+                      :PF35 ;
+      
+      iloc:belongsToRoom :S74 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PF07
+
+:PF07 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Stairway S75 Groundfloor entrance"@en ;
+	  
+	  rdfs:label "Doberdó utcai bejárathoz vezető lépcső földszinti bejárata"@hu ;
+      
+      rdfs:comment "Starpoint" ;
+      
+      iloc:belongsToRoom :F61 ,
+                        :F63b ;
+      
+      iloc:connectsPOI :P101 ,
+                      :PF01 ,
+                      :PF09 ,
+                      :PF15 ,
+                      :PF17 ,
+                      :PF18 ,
+					  :PF20;
+      
+      iloc:belongsToRoom :S75 ;
+	  foaf:depiction   <http://lod.nik.uni-obuda.hu/indoor/POI/auto_resized.jpg>.
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PF08
+
+:PF08 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Aula Exit E01"@en ;
+	  
+	  rdfs:label "Főbejárat felöli, parkba vezető aula kijárat"@hu ;
+      
+      iloc:belongsToRoom :F63a ;
+      
+      iloc:connectsPOI :PF01 ,
+                      :PF06 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PF09
+
+:PF09 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Aula Exit E02"@en ;
+	  
+	  rdfs:label "AudMax felöli, külső dohányzóhoz vezető aula kijárat"@hu ;
+      
+      rdfs:comment "Starpoint" ;
+      
+      iloc:belongsToRoom :F63b ;
+      
+      iloc:connectsPOI :PF01 ,
+                      :PF07 ,
+                      :PF12 ,
+                      :PF13 ,
+                      :PF14 ,
+                      :PF18 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PF10
+
+:PF10 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Women toilet Groundfloor entrance"@en ;
+	  
+	  rdfs:label "Földszinti női mosdó bejárata"@hu ;
+      
+      iloc:belongsToRoom :F63a ,
+                        :F_T01 ;
+      
+      iloc:connectsPOI :PF06 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PF11
+
+:PF11 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Cafeteria entrance"@en ;
+	  
+	  rdfs:label "Női mosdó felöli bejárat a büféhez"@hu ;
+      
+      iloc:belongsToRoom :C01 ,
+                        :F63a ;
+      
+      iloc:connectsPOI :PF06 ,
+                      :PF13 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PF12
+
+:PF12 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Men toilet Groundfloor entrance"@en ;
+	  
+	  rdfs:label "Földszinti férfi mosdó bejárata"@hu ;
+      
+      iloc:belongsToRoom :F63b ,
+                        :F_T02 ;
+      
+      iloc:connectsPOI :PF09 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PF13
+
+:PF13 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Cafeteria entrance"@en ;
+	  
+	  rdfs:label "Férfi mosdó felöli bejárat a büféhez"@hu ;
+      
+      iloc:belongsToRoom :C01 ,
+                        :F63b ;
+      
+      iloc:connectsPOI :PF09 ,
+                      :PF11 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PF14
+
+:PF14 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Stairway S73 Groundfloor entrance"@en ;
+	  
+	  rdfs:label "Férfi mosdó felöli AudMax lépcső bejárata"@hu ;
+      
+      iloc:belongsToRoom :F63b ;
+      
+      iloc:connectsPOI :PF09 ,
+                      :PF34 ;
+      
+      iloc:belongsToRoom :S73 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PF15
+
+:PF15 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "F01 door"@en ;
+	  
+	  rdfs:label "F01 előadó bejárata"@hu ;
+      
+      iloc:belongsToRoom :F01 ,
+                        :F61 ;
+      
+      iloc:connectsPOI :PF07 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PF17
+
+:PF17 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Wardrobe entrance"@en ;
+	  
+	  rdfs:label "Ruhatár bejárata"@hu ;
+      
+      iloc:belongsToRoom :F61 ;
+      
+      iloc:connectsPOI :PF07 ;
+      
+      iloc:belongsToRoom :W01 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PF18
+
+:PF18 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Exit E03"@en ;
+	  
+	  rdfs:label "Teherlift melletti, parkba vezető aula kijárat"@hu ;
+      
+      iloc:belongsToRoom :F63b ;
+      
+      iloc:connectsPOI :PF07 ,
+                      :PF09 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PF20
+
+:PF20 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "F02 door"@en ;
+	  
+	  rdfs:label "F02 előadó bejárata"@hu ;
+      
+      rdfs:comment "Starpoint" ;
+      
+      iloc:belongsToRoom :F02 ,
+                        :F60a ;
+      
+      iloc:connectsPOI :PF07 ,
+                      :PF21 ,
+                      :PF22 ,
+                      :PF23 ,
+                      :PF24 ,
+                      :PF25 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PF21
+
+:PF21 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Exit E04"@en ;
+	  
+	  rdfs:label "F02 előadóval szembeni, külső dohányzóhoz vezető aula kijárat"@hu ;
+      
+      iloc:belongsToRoom :F60a ;
+      
+      iloc:connectsPOI :PF20 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PF22
+
+:PF22 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "F03 door"@en ;
+	  
+	  rdfs:label "F03 előadó bejárata"@hu ;
+      
+      iloc:belongsToRoom :F03 ,
+                        :F60a ;
+      
+      iloc:connectsPOI :PF20 ,
+                      :PF25 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PF23
+
+:PF23 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "F04 door"@en ;
+	  
+	  rdfs:label "F04 előadó bejárata"@hu ;
+      
+      iloc:belongsToRoom :F04 ,
+                        :F60a ;
+      
+      iloc:connectsPOI :PF20 ,
+                      :PF25 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PF24
+
+:PF24 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Exit E05"@en ;
+	  
+	  rdfs:label "F04 előadóval szembeni, külső dohányzóhoz vezető kijárat"@hu ;
+      
+      iloc:belongsToRoom :F60a ;
+      
+      iloc:connectsPOI :PF20 ,
+                      :PF25 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PF25
+
+:PF25 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Elevator E70 Groundfloor entrance"@en ;
+	  
+	  rdfs:label "Személylift földszinti bejárata"@hu ;
+      
+      rdfs:comment "Starpoint" ;
+      
+      iloc:belongsToRoom :E70 ,
+                        :F60a ;
+      
+      iloc:connectsPOI :P119 ,
+                      :P208 ,
+                      :P301 ,
+                      :P401 ,
+                      :PF20 ,
+                      :PF22 ,
+                      :PF23 ,
+                      :PF24 ,
+                      :PF26 ,
+                      :PF33 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PF26
+
+:PF26 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Exit E06"@en ;
+	  
+	  rdfs:label "F05 előadóval szembeni, külső dohányzóhoz vezető kijárat"@hu ;
+      
+      rdfs:comment "Starpoint" ;
+      
+      iloc:belongsToRoom :F60b ;
+      
+      iloc:connectsPOI :PF25 ,
+                      :PF27 ,
+                      :PF28 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PF27
+
+:PF27 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "F05 door"@en ;
+	  
+	  rdfs:label "F05 előadó bejárata"@hu ;
+      
+      iloc:belongsToRoom :F05 ,
+                        :F60b ;
+      
+      iloc:connectsPOI :PF26 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PF28
+
+:PF28 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "F06 door"@en ;
+	  
+	  rdfs:label "F06 előadó bejárata"@hu ;
+      
+      iloc:belongsToRoom :F06 ,
+                        :F60b ;
+      
+      iloc:connectsPOI :PF26 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PF29
+
+:PF29 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Disabled toilet Groundfloor entrance"@en ;
+	  
+	  rdfs:label "Földszinti mozgáskorlátozott mosdó bejárata"@hu ;
+      
+      iloc:belongsToRoom :F63a ,
+                        :F_T03 ;
+      
+      iloc:connectsPOI :PF06 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PF30
+
+:PF30 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Elevator E77 Groundfloor entrance"@en ;
+	  
+	  rdfs:label "Főbejárat felöli lépcsőház földszinti bejárata"@hu ;
+      
+      iloc:belongsToRoom :E77 ,
+                        :F62a ;
+      
+      iloc:connectsPOI :PB05 ,
+                      :PF01 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PF31
+
+:PF31 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Elevator E75 Groundfloor entrance"@en ;
+	  
+	  rdfs:label "Teherlift földszinti bejárata"@hu ;
+      
+      iloc:belongsToRoom :E75 ,
+                        :F61 ;
+      
+      iloc:connectsPOI :PF07 ,
+					  :P128 ,
+					  :P219.
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PF33
+
+:PF33 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "Stairway S70 Groundfloor entrance"@en ;
+	  
+	  rdfs:label "Lépcsőház földszinti bejárata"@hu ;
+      
+      iloc:belongsToRoom :F60a ;
+      
+      iloc:connectsPOI :PF25 ;
+      
+      iloc:belongsToRoom :S70 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PF34
+
+:PF34 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "AudMax Mezzanine entrance 1"@en ;
+	  
+	  rdfs:label "AudMax földszinti férfi mosdó felöli bejárata"@hu ;
+      
+      iloc:belongsToRoom :AudMax ,
+                        :F63b ;
+      
+      iloc:connectsPOI :P104 ,
+                      :PF14 ,
+                      :PF35 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/PF35
+
+:PF35 rdf:type iloc:POI ,
+               owl:NamedIndividual ;
+      
+      rdfs:label "AudMax Mezzanine entrance 2"@en ;
+	  
+	  rdfs:label "AudMax földszinti női mosdó felöli bejárata"@hu ;
+      
+      iloc:belongsToRoom :AudMax ,
+                        :F63a ;
+      
+      iloc:connectsPOI :P105 ,
+                      :PF06 ,
+                      :PF34 .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/R01
+
+:R01 rdf:type iloc:Office ,
+              owl:NamedIndividual ;
+     
+     rdfs:label "Ground floor Reception"@en ;
+	 
+	 rdfs:label "Recepció"@hu ;
+     
+     iloc:isPartOf :Ground_floor_oe_building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/S70
+
+:S70 rdf:type iloc:Stairway ,
+              owl:NamedIndividual ;
+     
+     iloc:isPartOf :OE_Main_Building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/S72
+
+:S72 rdf:type iloc:Stairway ,
+              owl:NamedIndividual ;
+     
+     iloc:isPartOf :OE_Main_Building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/S73
+
+:S73 rdf:type iloc:Stairway ,
+              owl:NamedIndividual ;
+     
+     iloc:isPartOf :OE_Main_Building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/S74
+
+:S74 rdf:type iloc:Stairway ,
+              owl:NamedIndividual ;
+     
+     iloc:isPartOf :OE_Main_Building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/S75
+
+:S75 rdf:type iloc:Stairway ,
+              owl:NamedIndividual ;
+     
+     iloc:isPartOf :OE_Main_Building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/S76
+
+:S76 rdf:type iloc:Stairway ,
+              owl:NamedIndividual ;
+     
+     iloc:isPartOf :OE_Main_Building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/S77
+
+:S77 rdf:type iloc:Stairway ,
+              owl:NamedIndividual ;
+     
+     iloc:isPartOf :OE_Main_Building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Second_floor_oe_building
+
+:Second_floor_oe_building rdf:type iloc:Floor ,
+                                   owl:NamedIndividual ;
+                          
+                          rdfs:label "Second Floor OE Building"@en ;
+                          
+                          iloc:isPartOf :OE_Main_Building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/Third_floor_oe_building
+
+:Third_floor_oe_building rdf:type iloc:Floor ,
+                                  owl:NamedIndividual ;
+                         
+                         rdfs:label "Third Floor OE Building "@en ;
+                         
+                         iloc:isPartOf :OE_Main_Building .
+
+
+
+###  http://lod.nik.uni-obuda.hu/data/W01
+
+:W01 rdf:type iloc:Wardrobe ,
+              owl:NamedIndividual ;
+			  
+			  rdfs:label "Ruhatár"@hu ;
+     
+     iloc:isPartOf :Ground_floor_oe_building .
+
+
+
+###  http://sws.geonames.org/2950159/
+
+<http://sws.geonames.org/2950159/> rdf:type owl:NamedIndividual .
+
+
+
+
+###  Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net
+

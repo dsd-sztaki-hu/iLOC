@@ -1,0 +1,736 @@
+@prefix : <http://lod.nik.uni-obuda.hu/iloc/iloc#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix teach: <http://linkedscience.org/teach/ns#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix dcterm: <http://purl.org/dc/terms/> .
+@base <http://lod.nik.uni-obuda.hu/iloc/iloc#> .
+
+<http://lod.nik.uni-obuda.hu/iloc/iloc#> rdf:type owl:Ontology ;
+                                         
+                                         dcterm:issued "2015-07-01"^^xsd:date ;
+                                         
+                                         dcterm:date "2016-10-28"^^xsd:date ;
+                                         
+                                         dcterm:identifier "http://lod.nik.uni-obuda.hu/iloc-20161028" ;
+                                         
+                                         vann:preferredNamespacePrefix "iloc" ;
+                                         
+                                         dcterm:isVersionOf "http://lod.nik.uni-obuda.hu/iloc/iloc#" ;
+                                         
+                                         vann:preferredNamespaceUri "http://lod.nik.uni-obuda.hu/iloc/iloc#" ;
+                                         
+                                         dcterm:title "Ontology for Indoor Navigation" ;
+                                         
+                                         dcterm:description "This ontology provides indoor location and navigation features."@en ;
+                                         
+                                         <http://creativecommons.org/ns#license> <http://creativecommons.org/licenses/by/3.0/> ;
+                                         
+                                         dcterm:creator <http://lod.nik.uni-obuda.hu/data/Andras_Micsik> ,
+                                                        <http://lod.nik.uni-obuda.hu/data/Barnabas_Szasz> ,
+                                                        <http://lod.nik.uni-obuda.hu/data/Rita_Fleiner> ;
+                                         
+                                         owl:imports <http://www.w3.org/2006/vcard/ns> .
+
+
+#################################################################
+#
+#    Annotation properties
+#
+#################################################################
+
+
+###  http://purl.org/dc/elements/1.1/date
+
+<http://purl.org/dc/elements/1.1/date> rdf:type owl:AnnotationProperty .
+
+
+
+###  http://purl.org/dc/elements/1.1/description
+
+<http://purl.org/dc/elements/1.1/description> rdf:type owl:AnnotationProperty .
+
+
+
+###  http://purl.org/dc/elements/1.1/title
+
+<http://purl.org/dc/elements/1.1/title> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  http://lod.nik.uni-obuda.hu/iloc/iloc#belongsTo
+
+:belongsTo rdf:type owl:ObjectProperty ;
+           
+           rdfs:label "belongs to"@en ;
+           
+           rdfs:comment "This property can be used to state that a Room belongs to a specific Organization or Person."@en ;
+           
+           vs:term_status "stable"@en ;
+           
+           rdfs:domain :Room ;
+           
+           rdfs:range foaf:Agent .
+
+
+
+###  http://lod.nik.uni-obuda.hu/iloc/iloc#belongsToRoom
+
+:belongsToRoom rdf:type owl:ObjectProperty ;
+               
+               rdfs:label "belongs to Room"@en ;
+               
+               rdfs:comment "This property states that a Point of Interest belongs to a Room. POIs can belong to multiple rooms: e.g. doors are part of both rooms." ;
+               
+               vs:term_status "stable"@en ;
+               
+               rdfs:domain :POI ;
+               
+               rdfs:range :Room .
+
+
+
+###  http://lod.nik.uni-obuda.hu/iloc/iloc#connectsPOI
+
+:connectsPOI rdf:type owl:ObjectProperty ,
+                      owl:SymmetricProperty ;
+             
+             rdfs:label "connects to POI"@en ;
+             
+             rdfs:comment "This property is used to describe a direct route between POIs."@en ;
+             
+             vs:term_status "stable"@en ;
+             
+             rdfs:range :POI ;
+             
+             rdfs:domain :POI ;
+             
+             rdfs:subPropertyOf :connectsPOIOneWay .
+
+
+
+###  http://lod.nik.uni-obuda.hu/iloc/iloc#connectsPOIOneWay
+
+:connectsPOIOneWay rdf:type owl:AsymmetricProperty ,
+                            owl:ObjectProperty ;
+                   
+                   rdfs:label "connects to POI (one way)"@en ;
+                   
+                   rdfs:comment "This property is used to describe a direct walkable one-way route between POIs. Only walking from the subject to the object is possible/allowed."@en ;
+                   
+                   vs:term_status "stable"@en ;
+                   
+                   rdfs:range :POI ;
+                   
+                   rdfs:domain :POI .
+
+
+
+###  http://lod.nik.uni-obuda.hu/iloc/iloc#defaultRoomOf
+
+:defaultRoomOf rdf:type owl:ObjectProperty ;
+               
+               rdfs:label "default Room Of"@en ;
+               
+               rdfs:comment "This property assigns a default Room to an Organization or Person."@en ;
+               
+               vs:term_status "stable"@en ;
+               
+               rdfs:range :Room ;
+               
+               rdfs:domain foaf:Agent .
+
+
+
+###  http://lod.nik.uni-obuda.hu/iloc/iloc#hasCategory
+
+:hasCategory rdf:type owl:ObjectProperty ;
+             
+             rdfs:label "has Category"@en ;
+             
+             rdfs:comment "This property states that a Room or Point of Interest has a specific category, like Hallway, Office, etc. Category can be any resource." ;
+             
+             vs:term_status "stable"@en .
+
+
+
+###  http://lod.nik.uni-obuda.hu/iloc/iloc#hasEntrance
+
+:hasEntrance rdf:type owl:ObjectProperty ;
+             
+             rdfs:label "has Entrance"@en ;
+             
+             rdfs:comment "This property states that an Entrance belongs to a Room. Entrances belong to multiple rooms." ;
+             
+             vs:term_status "stable"@en ;
+             
+             rdfs:domain :Entrance ;
+             
+             rdfs:range :Room ;
+             
+             rdfs:subPropertyOf :belongsToRoom .
+
+
+
+###  http://lod.nik.uni-obuda.hu/iloc/iloc#hasPOI
+
+:hasPOI rdf:type owl:ObjectProperty ;
+        
+        rdfs:label "has POI"@en ;
+        
+        rdfs:comment "This property states that there is a Point of Interest in a Room. Multiple rooms can include the same POI: e.g. doors are part of both rooms."@en ;
+        
+        vs:term_status "stable"@en ;
+        
+        rdfs:range :POI ;
+        
+        rdfs:domain :Room ;
+        
+        owl:inverseOf :belongsToRoom .
+
+
+
+###  http://lod.nik.uni-obuda.hu/iloc/iloc#hasPart
+
+:hasPart rdf:type owl:ObjectProperty ;
+         
+         rdfs:label "has part"@en ;
+         
+         rdfs:comment "Object property to state that a Building or BuildingPart has a BuildingPart. Example: ex:buildingA iloc:hasPart ex:Floor1_buildingA ."@en ;
+         
+         vs:term_status "stable"@en ;
+         
+         rdfs:domain :BuildingPart ;
+         
+         rdfs:range [ rdf:type owl:Class ;
+                      owl:unionOf ( :Building
+                                    :BuildingPart
+                                  )
+                    ] .
+
+
+
+###  http://lod.nik.uni-obuda.hu/iloc/iloc#hasRouteFeature
+
+:hasRouteFeature rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:label "has Route Feature"@en ;
+                 
+                 rdfs:comment "This property states that a RouteSection has a specific feature." ;
+                 
+                 vs:term_status "stable"@en ;
+                 
+                 rdfs:domain :RouteFeature ;
+                 
+                 rdfs:range :RouteSection .
+
+
+
+###  http://lod.nik.uni-obuda.hu/iloc/iloc#isPartOf
+
+:isPartOf rdf:type owl:ObjectProperty ;
+          
+          rdfs:label "is part of"@en ;
+          
+          rdfs:comment "Object property to state that a BuildingPart entity is part of a Building or BuildingPart. Example: ex:Floor1_buildingA iloc:isPartOf ex:buildingA ."@en ;
+          
+          vs:term_status "stable"@en ;
+          
+          rdfs:domain :BuildingPart ;
+          
+          owl:inverseOf :hasPart ;
+          
+          rdfs:range [ rdf:type owl:Class ;
+                       owl:unionOf ( :Building
+                                     :BuildingPart
+                                   )
+                     ] .
+
+
+
+###  http://lod.nik.uni-obuda.hu/iloc/iloc#routeFromPOI
+
+:routeFromPOI rdf:type owl:ObjectProperty ;
+              
+              rdfs:label "connects to RouteSection"@en ;
+              
+              rdfs:comment "This property is used to define the start POI of a RouteSection instance."@en ;
+              
+              vs:term_status "stable"@en ;
+              
+              rdfs:range :POI ;
+              
+              rdfs:domain :RouteSection ;
+              
+              rdfs:subPropertyOf :routeToFromPOI .
+
+
+
+###  http://lod.nik.uni-obuda.hu/iloc/iloc#routeToFromPOI
+
+:routeToFromPOI rdf:type owl:ObjectProperty ;
+                
+                rdfs:label "connects to RouteSection"@en ;
+                
+                rdfs:comment "This property is used to define either one of the POIs of a RouteSection instance."@en ;
+                
+                vs:term_status "stable"@en ;
+                
+                rdfs:range :POI ;
+                
+                rdfs:domain :RouteSection .
+
+
+
+###  http://lod.nik.uni-obuda.hu/iloc/iloc#routeToPOI
+
+:routeToPOI rdf:type owl:ObjectProperty ;
+            
+            rdfs:label "connects to RouteSection"@en ;
+            
+            rdfs:comment "This property is used to define the target POI of a RouteSection instance."@en ;
+            
+            vs:term_status "stable"@en ;
+            
+            rdfs:range :POI ;
+            
+            rdfs:domain :RouteSection ;
+            
+            rdfs:subPropertyOf :routeToFromPOI .
+
+
+
+###  http://www.w3.org/2003/01/geo/wgs84_pos#location
+
+geo:location rdf:type owl:ObjectProperty ;
+             
+             rdfs:range geo:SpatialThing .
+
+
+
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://lod.nik.uni-obuda.hu/iloc/iloc#Building
+
+:Building rdf:type owl:Class ;
+          
+          rdfs:label "Building"@en ;
+          
+          rdfs:subClassOf owl:Thing ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasEntrance ;
+                            owl:minCardinality "1"^^xsd:nonNegativeInteger
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasPart ;
+                            owl:allValuesFrom :Floor
+                          ] ;
+          
+          rdfs:comment "Represents a whole building. It may have an address and spatial coordinates."@en ;
+          
+          vs:term_status "stable"@en .
+
+
+
+###  http://lod.nik.uni-obuda.hu/iloc/iloc#BuildingEntrance
+
+:BuildingEntrance rdf:type owl:Class ;
+                  
+                  rdfs:label "Building Entrance"@en ;
+                  
+                  rdfs:subClassOf :Entrance ,
+                                  [ rdf:type owl:Restriction ;
+                                    owl:onProperty :belongsToRoom ;
+                                    owl:maxCardinality "1"^^xsd:nonNegativeInteger
+                                  ] ;
+                  
+                  rdfs:comment "Represents the entrance where one can enter/leave the building."@en ;
+                  
+                  vs:term_status "stable"@en .
+
+
+
+###  http://lod.nik.uni-obuda.hu/iloc/iloc#BuildingPart
+
+:BuildingPart rdf:type owl:Class ;
+              
+              rdfs:label "Building Part"@en ;
+              
+              rdfs:subClassOf owl:Thing ;
+              
+              rdfs:comment "Superclass of every part of a building."@en ;
+              
+              vs:term_status "stable"@en .
+
+
+
+###  http://lod.nik.uni-obuda.hu/iloc/iloc#Distance
+
+:Distance rdf:type owl:Class ;
+          
+          rdfs:label "distance"@en ;
+          
+          rdfs:subClassOf :QuantityRouteFeature ;
+          
+          rdfs:comment "Distance instances represent the time or distance it is take to traverse a Route Section."@en ;
+          
+          vs:term_status "stable"@en .
+
+
+
+###  http://lod.nik.uni-obuda.hu/iloc/iloc#Elevator
+
+:Elevator rdf:type owl:Class ;
+          
+          rdfs:label "Elevator"@en ;
+          
+          rdfs:subClassOf :VerticalPassage ;
+          
+          rdfs:comment "Connects Rooms on different floors."@en ;
+          
+          vs:term_status "stable"@en .
+
+
+
+###  http://lod.nik.uni-obuda.hu/iloc/iloc#Entrance
+
+:Entrance rdf:type owl:Class ;
+          
+          rdfs:label "Entrance"@en ;
+          
+          rdfs:subClassOf :POI ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :belongsToRoom ;
+                            owl:maxCardinality "2"^^xsd:nonNegativeInteger
+                          ] ;
+          
+          rdfs:comment "Represents any type of entrance"@en ;
+          
+          vs:term_status "stable"@en .
+
+
+
+###  http://lod.nik.uni-obuda.hu/iloc/iloc#Floor
+
+:Floor rdf:type owl:Class ;
+       
+       rdfs:label "Floor"@en ;
+       
+       rdfs:subClassOf :BuildingPart ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :hasPart ;
+                         owl:allValuesFrom :Room
+                       ] ;
+       
+       rdfs:comment "It is part of a building. It may consist of Rooms."@en ;
+       
+       vs:term_status "stable"@en .
+
+
+
+###  http://lod.nik.uni-obuda.hu/iloc/iloc#FunctionalRouteFeature
+
+:FunctionalRouteFeature rdf:type owl:Class ;
+                        
+                        rdfs:label "Functional Route feature"@en ;
+                        
+                        rdfs:subClassOf :RouteFeature ;
+                        
+                        rdfs:comment "FunctionalRouteFeature instances represent any functional feature a Route Section might have."@en ;
+                        
+                        vs:term_status "stable"@en .
+
+
+
+###  http://lod.nik.uni-obuda.hu/iloc/iloc#HasIncline
+
+:HasIncline rdf:type owl:Class ;
+            
+            rdfs:label "Has Incline"@en ;
+            
+            rdfs:subClassOf :QualityRouteFeature ;
+            
+            rdfs:comment "A Route Section has incline (in degrees)."@en ;
+            
+            vs:term_status "stable"@en .
+
+
+
+###  http://lod.nik.uni-obuda.hu/iloc/iloc#HasSteps
+
+:HasSteps rdf:type owl:Class ;
+          
+          rdfs:label "Has Steps"@en ;
+          
+          rdfs:subClassOf :QualityRouteFeature ;
+          
+          rdfs:comment "A Route Section has steps."@en ;
+          
+          vs:term_status "stable"@en .
+
+
+
+###  http://lod.nik.uni-obuda.hu/iloc/iloc#POI
+
+:POI rdf:type owl:Class ;
+     
+     rdfs:label "Point of Interest"@en ;
+     
+     rdfs:subClassOf owl:Thing ;
+     
+     rdfs:comment "An entity with Location. Can be used as part of a route."@en ;
+     
+     vs:term_status "stable"@en .
+
+
+
+###  http://lod.nik.uni-obuda.hu/iloc/iloc#QualityRouteFeature
+
+:QualityRouteFeature rdf:type owl:Class ;
+                     
+                     rdfs:label "Quality Route feature"@en ;
+                     
+                     rdfs:subClassOf :RouteFeature ;
+                     
+                     rdfs:comment "QualityRouteFeature instances represent any quality feature a Route Section might have."@en ;
+                     
+                     vs:term_status "stable"@en .
+
+
+
+###  http://lod.nik.uni-obuda.hu/iloc/iloc#QuantityRouteFeature
+
+:QuantityRouteFeature rdf:type owl:Class ;
+                      
+                      rdfs:label "Quantitiv Route feature"@en ;
+                      
+                      rdfs:subClassOf :RouteFeature ;
+                      
+                      rdfs:comment "QuantityRouteFeature instances represent any quantive feature a Route Section might have."@en ;
+                      
+                      vs:term_status "stable"@en .
+
+
+
+###  http://lod.nik.uni-obuda.hu/iloc/iloc#Room
+
+:Room rdf:type owl:Class ;
+      
+      rdfs:label "Room"@en ;
+      
+      rdfs:subClassOf :BuildingPart ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :hasEntrance ;
+                        owl:minCardinality "1"^^xsd:nonNegativeInteger
+                      ] ;
+      
+      rdfs:comment "Represents any type of room within a building."@en ;
+      
+      vs:term_status "stable"@en ;
+      
+      rdfs:isDefinedBy <http://yago-knowledge.org/resource/wordnet_room_104105893> .
+
+
+
+###  http://lod.nik.uni-obuda.hu/iloc/iloc#RoomEntrance
+
+:RoomEntrance rdf:type owl:Class ;
+              
+              rdfs:label "Room Entrance"@en ;
+              
+              rdfs:subClassOf :Entrance ;
+              
+              rdfs:comment "Represents the entrance where one can enter/leave the room."@en ;
+              
+              vs:term_status "stable"@en .
+
+
+
+###  http://lod.nik.uni-obuda.hu/iloc/iloc#RouteFeature
+
+:RouteFeature rdf:type owl:Class ;
+              
+              rdfs:label "Route feature"@en ;
+              
+              rdfs:comment "RouteFeature instances represent any feature a Route Section might have."@en ;
+              
+              vs:term_status "stable"@en .
+
+
+
+###  http://lod.nik.uni-obuda.hu/iloc/iloc#RouteSection
+
+:RouteSection rdf:type owl:Class ;
+              
+              rdfs:label "Route section"@en ;
+              
+              rdfs:comment "Route section directly connecting two POIs"@en ;
+              
+              vs:term_status "stable"@en .
+
+
+
+###  http://lod.nik.uni-obuda.hu/iloc/iloc#Stairway
+
+:Stairway rdf:type owl:Class ;
+          
+          rdfs:label "Stairway"@en ;
+          
+          rdfs:subClassOf :VerticalPassage ;
+          
+          rdfs:comment "Connects Rooms on different floors."@en ;
+          
+          vs:term_status "stable"@en .
+
+
+
+###  http://lod.nik.uni-obuda.hu/iloc/iloc#VerticalPassage
+
+:VerticalPassage rdf:type owl:Class ;
+                 
+                 rdfs:label "VerticalPassage"@en ;
+                 
+                 rdfs:subClassOf :Room ;
+                 
+                 rdfs:comment "Connects Rooms on different floors using any method."@en ;
+                 
+                 vs:term_status "stable"@en .
+
+
+
+###  http://www.w3.org/2003/01/geo/wgs84_pos#Point
+
+geo:Point rdf:type owl:Class ;
+          
+          rdfs:label "point" ;
+          
+          rdfs:subClassOf geo:SpatialThing ;
+          
+          rdfs:comment """ 
+Uniquely identified by lat/long/alt. i.e.
+
+spaciallyIntersects(P1, P2) :- lat(P1, LAT), long(P1, LONG), alt(P1, ALT),
+  lat(P2, LAT), long(P2, LONG), alt(P2, ALT).
+
+sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P2).
+  """ ,
+                       """A point, typically described using a coordinate system relative to Earth, such as WGS84.
+  """ .
+
+
+
+###  http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing
+
+geo:SpatialThing rdf:type owl:Class ;
+                 
+                 rdfs:label "SpatialThing" ;
+                 
+                 rdfs:comment """Anything with spatial extent, i.e. size, shape, or position.
+ e.g. people, places, bowling balls, as well as abstract areas like cubes.
+""" .
+
+
+
+###  http://xmlns.com/foaf/0.1/Agent
+
+foaf:Agent rdf:type owl:Class .
+
+
+
+
+#################################################################
+#
+#    Individuals
+#
+#################################################################
+
+###  http://lod.nik.uni-obuda.hu/iloc/iloc#Wheelchair
+:Wheelchair rdf:type :AccessFeature ,
+             owl:NamedIndividual ;
+				   
+			rdfs:label "Wheelchair"@en ;
+                              
+            vs:term_status "stable"@en ;
+          
+            rdfs:comment "Provides access for people with a disability being tied to a wheelchair."@en .			
+
+###  http://lod.nik.uni-obuda.hu/iloc/iloc#EWheelchair
+:EWheelchair rdf:type :AccessFeature ,
+             owl:NamedIndividual ;
+				   
+			rdfs:label "Electronic Wheelchair"@en ;
+                              
+            vs:term_status "stable"@en ;
+          
+            rdfs:comment "Provides access for people with a disability being tied to an electronic wheelchair."@en .			
+
+###  http://lod.nik.uni-obuda.hu/iloc/iloc#WheelchairWHelp
+:WheelchairWHelp rdf:type :AccessFeature ,
+             owl:NamedIndividual ;
+				   
+			rdfs:label "Wheelchair with Help"@en ;
+                              
+            vs:term_status "stable"@en ;
+          
+            rdfs:comment "Provides access for people with a disability being tied to a wheelchair with some additional help."@en .			
+
+###  http://lod.nik.uni-obuda.hu/iloc/iloc#Stretcher
+:Stretcher rdf:type :AccessFeature ,
+             owl:NamedIndividual ;
+				   
+			rdfs:label "Stretcher"@en ;
+                              
+            vs:term_status "stable"@en ;
+          
+            rdfs:comment "Provides access for people pushing a stretcher."@en .			
+
+###  http://lod.nik.uni-obuda.hu/iloc/iloc#RestrictedAccess
+:RestrictedAccess rdf:type :AccessFeature ,
+             owl:NamedIndividual ;
+				   
+			rdfs:label "Restricted Access"@en ;
+                              
+            vs:term_status "stable"@en ;
+          
+            rdfs:comment "It represents restricted access to part of a building, for example the need for having an employee badge."@en .			
+
+###  http://lod.nik.uni-obuda.hu/iloc/iloc#Stroller
+:Stroller rdf:type :AccessFeature ,
+             owl:NamedIndividual ;
+				   
+			rdfs:label "Stroller"@en ;
+                              
+            vs:term_status "stable"@en ;
+          
+            rdfs:comment "Provides access for people with a stroller."@en .			
+
+
+#################################################################
+#
+#    Annotations
+#
+#################################################################
+
+
+###  Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net
+
