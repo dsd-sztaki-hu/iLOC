@@ -96,3 +96,37 @@ SELECT DISTINCT ?sl ?l1 ?d1 ?l2 ?d2 ?l3 ?d3 ?el (?d1+?d2+?d3 AS ?distance) WHERE
 
 ## Papers mentioning iLOC
 
+http://doi.org/10.12700/APH.14.1.2017.1.8
+
+```
+@article{MTMT:3253920,
+	title = {Indoor Navigation for Motion Disabled Persons in Medical Facilities},
+	url = {https://m2.mtmt.hu/api/publication/3253920},
+	author = {Fleiner, Rita Dominika and Szász, Barnabás and Simon-Nagy, Gabriella and Micsik, András},
+	doi = {10.12700/APH.14.1.2017.1.8},
+	journal-iso = {ACTA POLYTECH HUNG},
+	journal = {ACTA POLYTECHNICA HUNGARICA},
+	volume = {14},
+	unique-id = {3253920},
+	issn = {1785-8860},
+	year = {2017},
+	eissn = {1785-8860},
+	pages = {111-128},
+	orcid-numbers = {Micsik, András/0000-0001-9859-9186}
+}
+```
+
+https://eprints.sztaki.hu/8851
+
+```
+@CONFERENCE{MTMT:3129867,
+	title = {iLOC - Building In-Door Navigation Servicesusing Linked Data},
+	url = {https://m2.mtmt.hu/api/publication/3129867},
+	author = {Szász, Barnabás and Fleiner, Rita Dominika and Micsik, András},
+	booktitle = {SEMPDS-2016 Posters&Demos@SEMANTiCS 2016 and SuCCESS'16 Workshop},
+	unique-id = {3129867},
+	year = {2016},
+	pages = {1-4},
+	orcid-numbers = {Micsik, András/0000-0001-9859-9186}
+}
+```
