@@ -45,6 +45,9 @@ https://eprints.sztaki.hu/8851
 }
 ```
 ## Examples using iLOC
+
+You can try the SPARQL queries using the sample data in file oloud-indoorentities_v9.ttl.
+
 ### Simple navigation based on the building structure
 
 The first option is based on the structure of the building (and based on the iloc:isPartOf property) and provides simple instructions like 
